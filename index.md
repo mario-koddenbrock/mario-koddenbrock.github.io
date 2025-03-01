@@ -8,7 +8,7 @@ Here are some links to learn more about my work and connect with me:
 
 <a href="https://github.com/mario-koddenbrock"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="30"/></a>
 <a href="https://www.linkedin.com/in/koddenbrock/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" height="30"/></a>
-<a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549"><img src="https://corporatedesign.htw-berlin.de/files/Presse/_tmp_/d/5/csm_Bild-Wort-Marke_auf_weiss_1280x853_3722b5420f.jpg" height="30"/></a>
+<a href="https://corporatedesign.htw-berlin.de/files/Presse/_tmp_/3/4/csm_Logos_1330x430_612fe2f37a.jpg"><img src="https://corporatedesign.htw-berlin.de/files/Presse/_tmp_/d/5/csm_Bild-Wort-Marke_auf_weiss_1280x853_3722b5420f.jpg" height="30"/></a>
 <a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de"><img src="https://scholar.google.com/intl/en/scholar/images/1x/scholar_logo_64dp.png" height="30"/></a>
 ## About My Research
 
