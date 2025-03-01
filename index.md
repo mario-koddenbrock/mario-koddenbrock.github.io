@@ -27,14 +27,7 @@ My research intersects computer vision, deep learning, and the development of in
 
 I currently work on the **DFG-funded project: Berlin Initiative for Applied Foundation Model Research (Appl-FM)**. This project aims to explore and apply foundation models to a variety of real-world use cases, emphasizing practical, high-impact applications in AI research and development.
 
-## Get in Touch
 
-If you’re interested in my work, would like to collaborate, or simply want to say hi, feel free to reach out:
-
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/koddenbrock/).
-- Check out my repositories on [GitHub](https://github.com/mario-koddenbrock).
-- Learn more about my academic profile at [HTW Berlin](https://www.htw-berlin.de/hochschule/personen/person/?eid=14549).
-- View my research publications on [Google Scholar](https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de).
 
 ---
 
