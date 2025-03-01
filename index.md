@@ -6,11 +6,10 @@ I am part of the **DFG project**: [_Berlin Initiative for Applied Foundation Mod
 
 Here are some links to learn more about my work and connect with me:
 
-- **[GitHub](https://github.com/mario-koddenbrock)**
-- **[LinkedIn](https://www.linkedin.com/in/koddenbrock/)**
-- **[HTW Berlin Profile](https://www.htw-berlin.de/hochschule/personen/person/?eid=14549)**
-- **[Google Scholar](https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de)**
-
+- <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30"/> **[GitHub](https://github.com/mario-koddenbrock)**
+- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30"/> **[LinkedIn](https://www.linkedin.com/in/koddenbrock/)**
+- <img src="https://corporatedesign.htw-berlin.de/files/Presse/_tmp_/d/5/csm_Bild-Wort-Marke_auf_weiss_1280x853_3722b5420f.jpg" width="30"/> **[HTW Berlin Profile](https://www.htw-berlin.de/hochschule/personen/person/?eid=14549)**
+- <img src="https://scholar.google.com/intl/en/scholar/images/1x/scholar_logo_64dp.png" width="30"/> **[Google Scholar](https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de)**
 ## About My Research
 
 My research intersects computer vision, deep learning, and the development of innovative adaptation techniques for **visual foundation models**. I work on:
