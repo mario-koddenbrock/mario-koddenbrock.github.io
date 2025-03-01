@@ -1,15 +1,8 @@
----
-title: "Mario Koddenbrock"
-layout: default
----
-
-# Hello, I'm Mario Koddenbrock
-
 I am a **PhD student** focusing on computer vision and machine learning. My thesis is titled:
 
 **_Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy_**
 
-I am also part of the **DFG project**: _Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.
+I am part of the **DFG project**: [_Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.](https://www.bht-berlin.de/3873/article/9084)
 
 Here are some links to learn more about my work and connect with me:
 
