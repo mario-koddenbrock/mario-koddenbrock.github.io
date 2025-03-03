@@ -5,7 +5,7 @@ I am a **PhD student** focusing on computer vision and machine learning. My thes
 
 **Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
 
-I am part of the **DFG project**: </br>
+I am part of the **DFG project**:
 [_Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.](https://www.bht-berlin.de/3873/article/9084)
 
 
@@ -26,27 +26,55 @@ My research intersects computer vision, deep learning, and the development of in
 ### Current Publications
 
 #### [Feedback-driven object detection and iterative model improvement](https://scholar.google.com/citations?view_op=view_citation&hl=de&user=wqHic0AAAAAJ&citation_for_view=wqHic0AAAAAJ:IjCSPb-OGe4C)
+
+###### _Tenckhoff, S., Koddenbrock, M., & Rodner, E. (2024). Proceedings of the Berlin Workshop on Artificial Intelligence for Engineering Applications (AI4EA 2024)._
+
 This publication presents the development and evaluation of a platform designed to interactively improve object detection models, demonstrating significant time reduction and efficiency gains in annotation without compromising quality.
 
-#### ["Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models](https://arxiv.org/abs/2409.18594) (Under Review)
+---
+
+
+#### ["Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models](https://arxiv.org/abs/2409.18594) 
+
+###### Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E. (2025). Under Review at KDD.
+
 This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average.
 
-#### Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation (Under Review)
+---
+
+#### Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation
+
+###### Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F. (2025). Under Review at ECML-PKDD.
+
 This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4\% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting.
 
+---
 
 ### Earlier Work
 
 #### [Condition monitoring of a mechanical pulsatile heart support system via support-vector machine](https://link.springer.com/chapter/10.1007/978-3-031-26236-4_6)
+
+###### Koddenbrock, M., & Heinze, H. (2022). In International Conference on Software Engineering and Formal Methods (pp. 59-70). Cham: Springer International Publishing.
+
 This paper presents a method to detect increased risk of complications during the use of a VAD using acoustic measurements. The main challenge is ensuring consistent monitoring despite various factors affecting ultrasonic measurements.
 
+---
 
 #### [Efficiency and Accuracy of a Divergence-Free Discretization for the Steady Incompressible Navier–Stokes Equations (German)](./res/Masterarbeit.pdf)
-This master thesis addresses the challenges in numerically implementing the Navier–Stokes and Stokes equations, focusing on the issue of incorrect force balancing due to a lack of orthogonality between irrotational and discretely divergence-free functions. Key results on the existence theory of solutions, suitable examples, and the efficiency of Picard and Newton iterations are discussed.
+
+###### Master thesis - not published 
+
+This thesis addresses the challenges in numerically implementing the Navier–Stokes and Stokes equations, focusing on the issue of incorrect force balancing due to a lack of orthogonality between irrotational and discretely divergence-free functions. Key results on the existence theory of solutions, suitable examples, and the efficiency of Picard and Newton iterations are discussed.
+
+---
 
 #### [Representation of Integers by Binary Quadratic Forms (German)](./res/Bachelorarbeit.pdf)
-This bachelor thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers `x` and `y` the number `n` can be represented by `ax^2 + bxy + cy^2`. Additionally, it briefly overviews continued fractions theory, useful for finding `x` and `y`. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is `n/a`.
 
+###### Bachelor thesis - not published 
+
+This thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers `x` and `y` the number `n` can be represented by `ax^2 + bxy + cy^2`. Additionally, it briefly overviews continued fractions theory, useful for finding `x` and `y`. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is `n/a`.
+
+---
 
 ---
 
