@@ -60,6 +60,21 @@ This paper presents a method to detect increased risk of complications during th
 
 ---
 
+#### [Between Measurement and Simulation. An Application Example of How to Create a Modal Digital Twin Using FE Model Updating](https://link.springer.com/chapter/10.1007/978-3-030-77348-9_6)
+
+###### Koddenbrock, M., Heimann, J., Herfert, D., Pehe, J., & Wargulski, L. (2022). In Model Validation and Uncertainty Quantification, Volume 3: Proceedings of the 39th IMAC, A Conference and Exposition on Structural Dynamics 2021 (pp. 39-48). Springer International Publishing.
+This paper determines the modal parameters of a machine frame using experimental modal analysis and updates the model to match simulated parameters. The results show the updated model accurately represents the real system.
+
+---
+
+#### [An innovative 3D color barcode: Intuitive and realistic visualization of digital data.](https://dl.acm.org/doi/10.1145/2983468.2983486)
+
+###### Koddenbrock, M., Herfert, D., Püschel, F., Rataj, C., & Melitzki, M. (2016). In Proceedings of the 17th International Conference on Computer Systems and Technologies 2016 (pp. 175-181).
+The increasing popularity of mobile devices has led to a rise in barcode technologies, with a new approach presented for color barcodes that integrates design and security for intuitive visualization of digital data.
+
+
+---
+
 #### [Efficiency and Accuracy of a Divergence-Free Discretization for the Steady Incompressible Navier–Stokes Equations (German)](./res/Masterarbeit.pdf)
 
 ###### Master thesis - not published 
@@ -75,6 +90,18 @@ This thesis addresses the challenges in numerically implementing the Navier–St
 This thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers `x` and `y` the number `n` can be represented by `ax^2 + bxy + cy^2`. Additionally, it briefly overviews continued fractions theory, useful for finding `x` and `y`. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is `n/a`.
 
 ---
+
+
+## Honors and Awards
+
+* [GFaI - Young Researcher Award 2023](https://www.gfai.de/aktuelles/presse/news/artikel/gfai-kuehrt-nachwuchsforscher-2023)
+* [Prof Vito Di Gesù - Young Researcher Award 2016](https://www.gfai.de/ueber-uns/profil/auszeichnungen)
+* [GFaI - Young Researcher Award 2015](https://www.adlershof.de/news/verleihung-des-gfai-nachwuchspreises)
+* [Eva-Wolzendorf Scholarship 2014-2015](https://www.fu-berlin.de/sites/frauenbeauftragte/gleichstellung/frauenfoerderung/eva-wolzendorf-stipendium/index.html)
+
+
+
+
 
 ---
 
