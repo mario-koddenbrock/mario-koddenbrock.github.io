@@ -41,10 +41,10 @@ This latest work proposes a framework for imprinting, identifying three main com
 This paper presents a method to detect increased risk of complications during the use of a VAD using acoustic measurements. The main challenge is ensuring consistent monitoring despite various factors affecting ultrasonic measurements.
 
 
-#### [Efficiency and Accuracy of a Divergence-Free Discretization for the Steady Incompressible Navier–Stokes Equations](./res/Masterarbeit.pdf)
+#### [Efficiency and Accuracy of a Divergence-Free Discretization for the Steady Incompressible Navier–Stokes Equations (German)](./res/Masterarbeit.pdf)
 This master thesis addresses the challenges in numerically implementing the Navier–Stokes and Stokes equations, focusing on the issue of incorrect force balancing due to a lack of orthogonality between irrotational and discretely divergence-free functions. Key results on the existence theory of solutions, suitable examples, and the efficiency of Picard and Newton iterations are discussed.
 
-#### [Representation of Integers by Binary Quadratic Forms](./res/Bachelorarbeit.pdf)
+#### [Representation of Integers by Binary Quadratic Forms (German)](./res/Bachelorarbeit.pdf)
 This bachelor thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers `x` and `y` the number `n` can be represented by `ax^2 + bxy + cy^2`. Additionally, it briefly overviews continued fractions theory, useful for finding `x` and `y`. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is `n/a`.
 
 
