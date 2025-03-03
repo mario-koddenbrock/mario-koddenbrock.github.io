@@ -1,3 +1,6 @@
+![Header Image](res/header.webp)
+
+
 I am a **PhD student** focusing on computer vision and machine learning. My thesis is titled:
 
 **_Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy_**
