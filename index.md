@@ -29,19 +29,19 @@ My research intersects computer vision, deep learning, and the development of in
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="https://scholar.google.com/citations?view_op=view_citation&hl=de&user=wqHic0AAAAAJ&citation_for_view=wqHic0AAAAAJ:IjCSPb-OGe4C">Feedback-driven object detection and iterative model improvement</a></h4>
-<p><strong>Tenckhoff, S., Koddenbrock, M., & Rodner, E. (2024).</strong> Proceedings of the Berlin Workshop on Artificial Intelligence for Engineering Applications (AI4EA 2024).</p>
+<p><strong>Tenckhoff, S., Koddenbrock, M., & Rodner, E. (2024).</strong> <br> Proceedings of the Berlin Workshop on Artificial Intelligence for Engineering Applications (AI4EA 2024).</p>
 <p>This publication presents the development and evaluation of a platform designed to interactively improve object detection models, demonstrating significant time reduction and efficiency gains in annotation without compromising quality.</p>
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="https://arxiv.org/abs/2409.18594">"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models</a></h4>
-<p><strong>Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E. (2025).</strong> Under Review at KDD.</p>
+<p><strong>Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E. (2025).</strong> <br> Under Review at KDD.</p>
 <p>This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average.</p>
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4>Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation</h4>
-<p><strong>Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F. (2025).</strong> Under Review at ECML-PKDD.</p>
+<p><strong>Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F. (2025).</strong> <br> Under Review at ECML-PKDD.</p>
 <p>This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4\% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting.</p>
 </div>
 
@@ -81,34 +81,34 @@ This latest work proposes a framework for imprinting, identifying three main com
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="https://link.springer.com/chapter/10.1007/978-3-031-26236-4_6">Condition monitoring of a mechanical pulsatile heart support system via support-vector machine</a></h4>
-<p><strong>Koddenbrock, M., & Heinze, H. (2022).</strong> In International Conference on Software Engineering and Formal Methods (pp. 59-70). Cham: Springer International Publishing.</p>
+<p><strong>Koddenbrock, M., & Heinze, H. (2022).</strong> <br> In International Conference on Software Engineering and Formal Methods (pp. 59-70). Cham: Springer International Publishing.</p>
 <p>This paper presents a method to detect increased risk of complications during the use of a VAD using acoustic measurements. The main challenge is ensuring consistent monitoring despite various factors affecting ultrasonic measurements.</p>
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="https://link.springer.com/chapter/10.1007/978-3-030-77348-9_6">Between Measurement and Simulation. An Application Example of How to Create a Modal Digital Twin Using FE Model Updating</a></h4>
-<p><strong>Koddenbrock, M., Heimann, J., Herfert, D., Pehe, J., & Wargulski, L. (2022).</strong> In Model Validation and Uncertainty Quantification, Volume 3: Proceedings of the 39th IMAC, A Conference and Exposition on Structural Dynamics 2021 (pp. 39-48). Springer International Publishing.</p>
+<p><strong>Koddenbrock, M., Heimann, J., Herfert, D., Pehe, J., & Wargulski, L. (2022).</strong> <br> In Model Validation and Uncertainty Quantification, Volume 3: Proceedings of the 39th IMAC, A Conference and Exposition on Structural Dynamics 2021 (pp. 39-48). Springer International Publishing.</p>
 <p>This paper determines the modal parameters of a machine frame using experimental modal analysis and updates the model to match simulated parameters. The results show the updated model accurately represents the real system.</p>
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="https://dl.acm.org/doi/10.1145/2983468.2983486">An innovative 3D color barcode: Intuitive and realistic visualization of digital data.</a></h4>
-<p><strong>Koddenbrock, M., Herfert, D., Püschel, F., Rataj, C., & Melitzki, M. (2016).</strong> In Proceedings of the 17th International Conference on Computer Systems and Technologies 2016 (pp. 175-181).</p>
+<p><strong>Koddenbrock, M., Herfert, D., Püschel, F., Rataj, C., & Melitzki, M. (2016).</strong> <br> In Proceedings of the 17th International Conference on Computer Systems and Technologies 2016 (pp. 175-181).</p>
 <p>The increasing popularity of mobile devices has led to a rise in barcode technologies, with a new approach presented for color barcodes that integrates design and security for intuitive visualization of digital data.</p>
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
-<h4><a href="./res/Bachelorarbeit.pdf">Representation of Integers by Binary Quadratic Forms (German)</a></h4>
-<p><strong>Bachelor thesis - not published</strong></p>
-<p>This thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers `x` and `y` the number `n` can be represented by `ax^2 + bxy + cy^2`. Additionally, it briefly overviews continued fractions theory, useful for finding `x` and `y`. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is `n/a`.</p>
-</div>
-
-
-<div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="./res/Masterarbeit.pdf">Efficiency and Accuracy of a Divergence-Free Discretization for the Steady Incompressible Navier–Stokes Equations (German)</a></h4>
-<p><strong>Master thesis - not published</strong></p>
+<p><strong>Master Thesis </strong> <br> not published</p>
 <p>This thesis addresses the challenges in numerically implementing the Navier–Stokes and Stokes equations, focusing on the issue of incorrect force balancing due to a lack of orthogonality between irrotational and discretely divergence-free functions. Key results on the existence theory of solutions, suitable examples, and the efficiency of Picard and Newton iterations are discussed.</p>
 </div>
+
+<div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
+<h4><a href="./res/Bachelorarbeit.pdf">Representation of Integers by Binary Quadratic Forms (German)</a></h4>
+<p><strong>Bachelor Thesis </strong> <br> not published</p>
+<p>This thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers <code>x</code> and <code>y</code> the number <code>n</code> can be represented by <code>ax^2 + bxy + cy^2</code>. Additionally, it briefly overviews continued fractions theory, useful for finding <code>x</code> and <code>y</code>. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is <code>n/a</code>.</p>
+</div>
+
 
 
 
