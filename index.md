@@ -1,11 +1,12 @@
-![Header Image](res/header.webp)
+<!--- ![Header Image](res/header.webp) -->
 
 
 I am a **PhD student** focusing on computer vision and machine learning. My thesis is titled:
 
-**_Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy_**
+**Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
 
-I am part of the **DFG project**: [_Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.](https://www.bht-berlin.de/3873/article/9084)
+I am part of the **DFG project**: </br>
+[_Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.](https://www.bht-berlin.de/3873/article/9084)
 
 
 Connect with me on:
