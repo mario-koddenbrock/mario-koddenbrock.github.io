@@ -13,8 +13,8 @@ Connect with me on:
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
 <a href="https://github.com/mario-koddenbrock"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50"/></a>
 <a href="https://www.linkedin.com/in/koddenbrock/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="50"/></a>
-<a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549"><img src="https://corporatedesign.htw-berlin.de/files/Presse/_tmp_/3/4/csm_Logos_1330x430_612fe2f37a.jpg" width="80"/></a>
-<a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de"><img src="https://scholar.google.com/intl/en/scholar/images/1x/scholar_logo_64dp.png" width="220"/></a>
+<a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549"><img src="https://corporatedesign.htw-berlin.de/files/Presse/_tmp_/3/4/csm_Logos_1330x430_612fe2f37a.jpg" width="140"/></a>
+<a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de"><img src="https://scholar.google.com/intl/en/scholar/images/1x/scholar_logo_64dp.png" width="260"/></a>
 </div>
 
 ## About My Research
