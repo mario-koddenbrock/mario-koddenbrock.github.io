@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+.page-header {
+  background-image: url('assets/images/header.webp');
+  background-size: cover;
+  background-position: center;
+}
