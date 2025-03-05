@@ -1,6 +1,6 @@
 title: "Adapting Visual Foundation Models"
 description: "Mario Koddenbrock"
-show_downloads: "false"
+show_downloads: false
 #google_analytics: [Your Google Analytics tracking ID]
 #google_analytics_anonymize: false
 darkmode: false
@@ -26,5 +26,5 @@ buttons:
 #remote_theme: pages-themes/architect@v0.2.0
 #remote_theme: pages-themes/minimal@v0.2.0
 #remote_theme: pages-themes/hacker@v0.2.0
-remote_theme: pages-themes/cayman@v0.2.0
-#remote_theme: tuur29/pages-themes-cayman
+#remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: tuur29/pages-themes-cayman
