@@ -26,5 +26,5 @@ buttons:
 #remote_theme: pages-themes/architect@v0.2.0
 #remote_theme: pages-themes/minimal@v0.2.0
 #remote_theme: pages-themes/hacker@v0.2.0
-#remote_theme: pages-themes/cayman@v0.2.0
-remote_theme: tuur29/pages-themes-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+#remote_theme: tuur29/pages-themes-cayman
