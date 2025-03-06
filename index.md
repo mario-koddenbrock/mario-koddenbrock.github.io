@@ -13,7 +13,7 @@ Connect with me on:
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
 <a href="https://github.com/mario-koddenbrock"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50"/></a>
 <a href="https://www.linkedin.com/in/koddenbrock/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="50"/></a>
-<a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Logo_HTW_Berlin.svg/640px-Logo_HTW_Berlin.svg.png" width="140"/></a>
+<a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Logo_HTW_Berlin.svg/640px-Logo_HTW_Berlin.svg.png" width="80"/></a>
 <a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de"><img src="https://scholar.google.com/intl/en/scholar/images/1x/scholar_logo_64dp.png" width="260"/></a>
 </div>
 
