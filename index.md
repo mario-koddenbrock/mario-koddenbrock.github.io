@@ -79,7 +79,7 @@ Connect with me:
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h4><a href="assets/pdf/Bachelorarbeit.pdf">Representation of Integers by Binary Quadratic Forms (German)</a></h4>
 <p><strong>Bachelor Thesis (2011)</strong> <br> not published</p>
-<p style="color: gray;">This thesis explores representing integers through binary quadratic forms, starting with an introduction and elementary proofs. It then covers algebraic tools to determine for which integers <code>x</code> and <code>y</code> the number <code>n</code> can be represented by <code>ax^2 + bxy + cy^2</code>. Additionally, it briefly overviews continued fractions theory, useful for finding <code>x</code> and <code>y</code>. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is <code>n/a</code>.</p>
+<p style="color: gray;">This thesis explores representing integers through binary quadratic forms. It covers algebraic tools to determine for which integers <code>x</code> and <code>y</code> the number <code>n</code> can be represented by <code>ax^2 + bxy + cy^2</code>. Additionally, it briefly overviews continued fractions theory, useful for finding <code>x</code> and <code>y</code>. The main results show the problem is equivalent to finding certain elements of a quadratic field whose norm is <code>n/a</code>.</p>
 </div>
 
 </div>
