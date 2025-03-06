@@ -17,8 +17,8 @@ Connect with me:
 <a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Logo_HTW_Berlin.svg/640px-Logo_HTW_Berlin.svg.png" width="80"/></a>
 <a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/480px-Google_Scholar_logo.svg.png" width="50"/></a>
 
-[//]: # (<a href="https://dblp.org/pid/189/6995.html"><img src="https://dblp.org/img/dblp.icon.192x192.png" width="50"/></a>)
-[//]: # (<a href="https://openreview.net/profile?id=~Mario_Koddenbrock1"><img src="https://avatars.githubusercontent.com/u/4711862?s=280&v=4" width="50"/></a>)
+<a href="https://dblp.org/pid/189/6995.html"><img src="https://dblp.org/img/dblp.icon.192x192.png" width="0"/></a>
+<a href="https://openreview.net/profile?id=~Mario_Koddenbrock1"><img src="https://avatars.githubusercontent.com/u/4711862?s=280&v=4" width="0"/></a>
 </div>
 
 ## Current Publications
