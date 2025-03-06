@@ -99,7 +99,3 @@ Connect with me:
 
 
 
----
-
-*This GitHub Page is built using [Jekyll](https://jekyllrb.com) and Markdown. Learn how to set up your own GitHub Page [here](https://docs.github.com/en/pages).*
-
