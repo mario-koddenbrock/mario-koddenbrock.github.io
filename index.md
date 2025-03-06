@@ -7,7 +7,7 @@ Working title of my thesis:
 **Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
 
 I am part of the **DFG project**:  
-[_Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.](https://www.bht-berlin.de/3873/article/9084)
+[**Berlin Initiative for Applied Foundation Model Research (Appl-FM).**](https://www.bht-berlin.de/3873/article/9084)
 
 
 Connect with me:
