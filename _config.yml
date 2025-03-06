@@ -2,9 +2,4 @@ title: "Adapting Visual Foundation Models"
 author: "Mario Koddenbrock"
 description: "Mario Koddenbrock"
 remote_theme: pages-themes/cayman@v0.2.0
-avatar: "/assets/images/portrait.png"
 
-social-network-links:
-  email: "Mario.Koddenbrock@htw-berlin.de"
-  rss: true
-  github: mario-koddenbrock
