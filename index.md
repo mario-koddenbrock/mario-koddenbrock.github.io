@@ -1,15 +1,16 @@
 <!--- ![Header Image](res/header.webp) -->
 
 
-I am a **PhD student** focusing on computer vision and machine learning. My thesis is titled:
+I am a **PhD student** focusing on computer vision and machine learning. 
 
+Working title of my thesis:  
 **Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
 
-I am part of the **DFG project**:
+I am part of the **DFG project**:  
 [_Berlin Initiative for Applied Foundation Model Research (Appl-FM)_.](https://www.bht-berlin.de/3873/article/9084)
 
 
-Connect with me on:
+Connect with me:
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
 <a href="https://github.com/mario-koddenbrock"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50"/></a>
 <a href="https://www.linkedin.com/in/koddenbrock/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="50"/></a>
@@ -20,11 +21,7 @@ Connect with me on:
 [//]: # (<a href="https://openreview.net/profile?id=~Mario_Koddenbrock1"><img src="https://avatars.githubusercontent.com/u/4711862?s=280&v=4" width="50"/></a>)
 </div>
 
-## About My Research
-
-My research intersects computer vision, deep learning, and the development of innovative adaptation techniques for **visual foundation models**. 
-
-### Current Publications
+## Current Publications
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
@@ -51,7 +48,7 @@ My research intersects computer vision, deep learning, and the development of in
 
 ---
 
-### Earlier Work
+## Earlier Work
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
