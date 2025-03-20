@@ -38,7 +38,7 @@ Connect with me:
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
-<h3>Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation</h3>
+<h3><a href="https://arxiv.org/abs/2503.14572">Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation</a></h3>
 <p><strong>Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F.</strong> <br> Under Review at ECML-PKDD 2025.</p>
 <p style="color: gray;">This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting.</p>
 </div>
