@@ -33,7 +33,7 @@ Connect with me:
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h3><a href="https://arxiv.org/abs/2409.18594">"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models</a></h3>
-<p><strong>Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E.</strong> <br> Under Review at KDD2025.</p>
+<p><strong>Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E.</strong> <br> ACM KDD 2025.</p>
 <p style="color: gray;">This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average.</p>
 </div>
 
