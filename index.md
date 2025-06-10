@@ -1,7 +1,6 @@
 <!--- ![Header Image](res/header.webp) -->
 
-
-I am a **PhD student** focusing on computer vision and machine learning. 
+I’m a **PhD student** at HTW Berlin, where I contribute to a DFG-funded project on applied foundation models in computer vision and machine learning. I earned my mathematics degree from Freie Universität Berlin and bring over ten years of hands-on R&D experience in machine learning to my research. My work bridges theory and practice, developing scalable vision systems that tackle real-world challenges.
 
 Working title of my thesis:  
 **Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
