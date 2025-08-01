@@ -1,8 +1,7 @@
 title: "Adapting Visual Foundation Models"
 author: "Mario Koddenbrock"
 description: "Mario Koddenbrock"
-remote_theme: allanchain/hydebeast
+remote_theme: yizeng/jekyll-theme-hydebeast
 plugins:
   - jekyll-paginate
   - jekyll-gist
-
