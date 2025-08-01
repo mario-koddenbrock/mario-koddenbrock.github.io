@@ -1,7 +1,6 @@
 <!--- ![Header Image](res/header.webp) -->
 
-
-I am a **PhD student** focusing on computer vision and machine learning. 
+I’m a **PhD student** at HTW Berlin, where I contribute to a DFG-funded project on applied foundation models in computer vision and machine learning. I earned my mathematics degree from Freie Universität Berlin and bring over ten years of hands-on R&D experience in machine learning to my research. My work bridges theory and practice, developing scalable vision systems that tackle real-world challenges.
 
 Working title of my thesis:  
 **Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
@@ -33,12 +32,12 @@ Connect with me:
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
 <h3><a href="https://arxiv.org/abs/2409.18594">"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models</a></h3>
-<p><strong>Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E.</strong> <br> Under Review at KDD2025.</p>
+<p><strong>Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E.</strong> <br> ACM KDD 2025.</p>
 <p style="color: gray;">This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average.</p>
 </div>
 
 <div style="flex: 1; min-width: 300px; border: 1px solid #ddd; padding: 10px;">
-<h3>Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation</h3>
+<h3><a href="https://arxiv.org/abs/2503.14572">Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation</a></h3>
 <p><strong>Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F.</strong> <br> Under Review at ECML-PKDD 2025.</p>
 <p style="color: gray;">This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting.</p>
 </div>
