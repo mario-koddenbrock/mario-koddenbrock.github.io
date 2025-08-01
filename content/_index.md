@@ -2,14 +2,11 @@
 title: "Adapting Visual Foundation Models"
 description: "PhD student at HTW Berlin, specializing in applied foundation models in computer vision and machine learning."
 keywords: ["PhD", "Computer Vision", "Machine Learning", "Foundation Models"]
-image: "/assets/images/portrait.png"
-slug: "mario-koddenbrock"
-layout: "single"
-type: "page"
-toc: false
 date: 2025-09-01
-draft: false    
 ---
+
+<!-- Force-loading the Font Awesome library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
