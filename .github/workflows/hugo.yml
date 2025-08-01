@@ -5,27 +5,30 @@ on:
   push:
     branches:
       - main
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# ADD THIS PERMISSIONS BLOCK
+permissions:
+  contents: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checks out your repository under $GITHUB_WORKSPACE, so the job can access it
+      # Step 1: Checks out your repository
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true  # This is critical to fetch your PaperMod theme
-          fetch-depth: 0    # Also important for the theme to work correctly
+          submodules: true
+          fetch-depth: 0
 
-      # Step 2: Sets up the Hugo environment
+      # Step 2: Sets up Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true # You need the extended version for PaperMod
+          extended: true
 
       # Step 3: Builds the static site
       - name: Build Site
@@ -36,6 +39,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public # The folder Hugo builds to
-          publish_branch: gh-pages # The branch to deploy to
-          cname: koddenbrock.com # Your custom domain
+          publish_dir: ./public
+          publish_branch: gh-pages
+          cname: koddenbrock.com
