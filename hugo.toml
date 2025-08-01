@@ -1,0 +1,31 @@
+baseURL = "https://koddenbrock.com/"
+title = "Mario Koddenbrock"
+languageCode = "en-us"
+theme = "PaperMod"
+
+[params]
+author = "Mario Koddenbrock"
+description = "PhD student at HTW Berlin, focusing on applied foundation models in computer vision and machine learning."
+defaultTheme = "auto" # can be "light", "dark", or "auto"
+ShowShareButtons = false
+ShowReadingTime = false
+
+
+
+# Main menu navigation
+[menu]
+[[menu.main]]
+    identifier = "about"
+    name = "Home"
+    url = "/"
+    weight = 10
+[[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
