@@ -1,8 +1,6 @@
 ---
-title: "Publications & Awards"
+title: "Publications"
 ---
-
-## Current Publications
 
 ### [Feedback-driven object detection and iterative model improvement](https://scholar.google.com/citations?view_op=view_citation&hl=de&user=wqHic0AAAAAJ&citation_for_view=wqHic0AAAAAJ:IjCSPb-OGe4C)
 **Tenckhoff, S., Koddenbrock, M., & Rodner, E.** (2024). <br>
@@ -50,7 +48,7 @@ title: "Publications & Awards"
 
 ---
 
-## Honors and Awards
+# Honors and Awards
 
 - [GFaI - Young Researcher Award 2023](https://www.gfai.de/aktuelles/presse/news/artikel/gfai-kuehrt-nachwuchsforscher-2023)
 - [Prof Vito Di Gesù - Young Researcher Award 2016](https://www.gfai.de/ueber-uns/profil/auszeichnungen)
