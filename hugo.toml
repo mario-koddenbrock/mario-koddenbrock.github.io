@@ -16,7 +16,7 @@ ShowReadingTime = false
 [menu]
 [[menu.main]]
     identifier = "about"
-    name = "Home"
+    name = "About Me"
     url = "/"
     weight = 10
 [[menu.main]]
