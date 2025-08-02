@@ -2,7 +2,7 @@
 title: "Adapting Visual Foundation Models"
 description: "PhD student at HTW Berlin, specializing in applied foundation models in computer vision and machine learning."
 keywords: ["PhD", "Computer Vision", "Machine Learning", "Foundation Models"]
-date: 2025-09-01
+date: 2025-08-01
 ---
 
 <!-- Force-loading the Font Awesome library -->
