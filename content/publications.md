@@ -2,19 +2,19 @@
 title: "Publications"
 ---
 
-### [Feedback-driven object detection and iterative model improvement](https://scholar.google.com/citations?view_op=view_citation&hl=de&user=wqHic0AAAAAJ&citation_for_view=wqHic0AAAAAJ:IjCSPb-OGe4C)
+### [Feedback-driven object detection and iterative model improvement](https://arxiv.org/abs/2411.19835)
 **Tenckhoff, S., Koddenbrock, M., & Rodner, E.** (2024). <br>
 *Proceedings of the Berlin Workshop on Artificial Intelligence for Engineering Applications (AI4EA).*
 > This publication presents the development and evaluation of a platform designed to interactively improve object detection models, demonstrating significant time reduction and efficiency gains in annotation without compromising quality.
 
-### ["Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models](https://doi.org/10.1145/3711896.3736818)
+### ["Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models](https://dl.acm.org/doi/10.1145/3711896.3736818)
 **Knauer, R., Koddenbrock, M., Wallsberger, R., Brisson, N. M., Duda, G. N., Falla, D., ... & Rodner, E.** (2025). <br>
 *ACM KDD 2025.*
 > This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average.
 
 ### [Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation](https://arxiv.org/abs/2503.14572)
 **Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F.** <br>
-*Under Review at ECML-PKDD 2025.*
+*Under Review.*
 > This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting.
 
 ---
