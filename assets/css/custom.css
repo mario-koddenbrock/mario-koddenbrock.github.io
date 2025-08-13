@@ -53,8 +53,10 @@
 /* Text overlay style */
 .card-text-overlay {
   position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: rgba(55, 0, 100, 0.2); /* Semi-transparent background */
   color: #ffffff;
   width: 100%;
   text-align: center;
