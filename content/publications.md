@@ -6,7 +6,7 @@ layout: "single"
 draft: false
 ---
 
-### ["On the Domain Robustness of Contrastive Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-032-02813-6_5)
+### [On the Domain Robustness of Contrastive Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-032-02813-6_5)
 Koddenbrock, M., Hoffmann, R., Brodmann, D. & Rodner, E. (2025). *KI 2025.*
 > We present DeepBench, a framework for assessing the domain-specific robustness of vision-language models (VLMs). Unlike standard benchmarks, DeepBench uses an LLM to generate realistic, context-aware image corruptions tailored to target domains, without requiring labels. Evaluating multiple contrastive VLM architectures across six real-world domains, we find substantial variability in robustness, underscoring the need for domain-aware evaluation. [DeepBench is open-source](https://github.com/ml-lab-htw/deepbench).
 ---
