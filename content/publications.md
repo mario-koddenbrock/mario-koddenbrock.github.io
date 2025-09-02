@@ -44,7 +44,7 @@ Master Thesis (2014). *Not published.*
 ---
 ### [Representation of Integers by Binary Quadratic Forms (German)](/pdf/Bachelorarbeit.pdf)
 Bachelor Thesis (2011). *Not published.*
-> This thesis explores representing integers through binary quadratic forms. It covers algebraic tools to determine for which integers x and y the number n can be represented by ax^2 + bxy + cy^2...
+> This thesis explores representing integers through binary quadratic forms. It covers algebraic tools to determine for which integers x and y the number n can be represented by ax^2 + bxy + cy^2.
 
 ---
 
