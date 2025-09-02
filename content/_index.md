@@ -1,7 +1,7 @@
 ---
 title: "Adapting Visual Foundation Models"
 keywords: ["PhD", "Computer Vision", "Machine Learning", "Foundation Models"]
-date: 2025-08-01
+date: 2025-09-02
 image: "/assets/images/portrait.png"
 slug: "mario-koddenbrock"
 layout: "single"
