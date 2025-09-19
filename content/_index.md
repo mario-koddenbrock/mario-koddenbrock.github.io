@@ -66,12 +66,14 @@ draft: false
 
 ---
 
-I’m a **PhD student** at HTW Berlin, where I contribute to a DFG-funded project on applied foundation models in computer vision and machine learning. I earned my mathematics degree from Freie Universität Berlin and bring over ten years of hands-on R&D experience in machine learning to my research. My work bridges theory and practice, developing scalable vision systems that tackle real-world challenges.
+I’m a **PhD student** at HTW Berlin, contributing to a DFG-funded project on applied foundation models in computer vision and machine learning. 
+I hold a degree in mathematics from Freie Universität Berlin and bring more than ten years of hands-on R&D experience in machine learning to my research.
 
-Working title of my thesis:
-**Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy**
+**PhD thesis (working title):**
+_Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy_
 
-I am part of the **DFG project**: [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://www.bht-berlin.de/3873/article/9084).
+
+I am involved in the **DFG project**: [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://www.bht-berlin.de/3873/article/9084).
 
 <!-- This is the final, all-Font-Awesome icon block -->
 <div class="icon-block" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 28px; margin-top: 20px; font-size: 2rem;">
