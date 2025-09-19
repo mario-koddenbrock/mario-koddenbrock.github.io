@@ -24,6 +24,11 @@ ShowReadingTime = false
     name = "Publications"
     url = "/publications/"
     weight = 20
+[[menu.main]]
+    identifier = "awards"
+    name = "Honors and Awards"
+    url = "/awards/"
+    weight = 30
 
 [markup]
   [markup.goldmark]

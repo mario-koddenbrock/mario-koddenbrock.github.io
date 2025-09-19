@@ -46,11 +46,3 @@ Master Thesis (2014). *Not published.*
 Bachelor Thesis (2011). *Not published.*
 > This thesis explores representing integers through binary quadratic forms. It covers algebraic tools to determine for which integers x and y the number n can be represented by ax^2 + bxy + cy^2.
 
----
-
-# Honors and Awards
-
-- [GFaI - Young Researcher Award 2023](https://www.gfai.de/aktuelles/presse/news/artikel/gfai-kuehrt-nachwuchsforscher-2023)
-- [Prof Vito Di Gesù - Young Researcher Award 2016](https://www.gfai.de/ueber-uns/profil/auszeichnungen)
-- [GFaI - Young Researcher Award 2015](https://www.adlershof.de/news/verleihung-des-gfai-nachwuchspreises)
-- [Eva-Wolzendorf Scholarship 2014-2015](https://www.fu-berlin.de/sites/frauenbeauftragte/gleichstellung/frauenfoerderung/eva-wolzendorf-stipendium/index.html)
