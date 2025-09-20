@@ -21,11 +21,10 @@ Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E.
 ### [Feedback-driven object detection and iterative model improvement](https://arxiv.org/abs/2411.19835)
 Tenckhoff, S., Koddenbrock, M., & Rodner, E. (2024). *AI4EA 2025.*
 > This publication presents the development and evaluation of a platform designed to interactively improve object detection models, demonstrating significant time reduction and efficiency gains in annotation without compromising quality. [The framework is open-source.](https://github.com/ml-lab-htw/iterative-annotate)
-
 ---
-
+---
 ## Earlier Work
-
+---
 ### [Condition monitoring of a mechanical pulsatile heart support system via support-vector machine](https://link.springer.com/chapter/10.1007/978-3-031-26236-4_6)
 Koddenbrock, M., & Heinze, H. (2022). *In International Conference on Software Engineering and Formal Methods 2022.*
 > This paper presents a method to detect increased risk of complications during the use of a VAD using acoustic measurements. The main challenge is ensuring consistent monitoring despite various factors affecting ultrasonic measurements.
@@ -45,4 +44,4 @@ Master Thesis (2014). *Not published.*
 ### [Representation of Integers by Binary Quadratic Forms (German)](/pdf/Bachelorarbeit.pdf)
 Bachelor Thesis (2011). *Not published.*
 > This thesis explores representing integers through binary quadratic forms. It covers algebraic tools to determine for which integers x and y the number n can be represented by ax^2 + bxy + cy^2.
-
+---
