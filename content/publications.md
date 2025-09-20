@@ -22,7 +22,9 @@ Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E.
 Tenckhoff, S., Koddenbrock, M., & Rodner, E. (2024). *AI4EA 2025.*
 > This publication presents the development and evaluation of a platform designed to interactively improve object detection models, demonstrating significant time reduction and efficiency gains in annotation without compromising quality. [The framework is open-source.](https://github.com/ml-lab-htw/iterative-annotate)
 ---
----
+
+
+
 ## Earlier Work
 ---
 ### [Condition monitoring of a mechanical pulsatile heart support system via support-vector machine](https://link.springer.com/chapter/10.1007/978-3-031-26236-4_6)

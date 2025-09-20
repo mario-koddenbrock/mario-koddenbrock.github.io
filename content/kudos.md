@@ -34,7 +34,8 @@ draft: false
 > For our work on "FLIPCODE: A novel 3D color code", which I developed together with Daniel Herfert.
 
 ---
----
+
+
 
 ## Scholarships
 
