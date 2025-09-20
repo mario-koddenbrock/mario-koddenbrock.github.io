@@ -1,15 +1,17 @@
 ---
 title: "Kudos"
 keywords: ["Awards", "Honors", "Scholarships"]
-date: 2025-08-01
+date: 2025-09-20
 layout: "single"
 draft: false
 ---
 
+## Awards
+
 ### [Best Paper Award KI 2025](https://ki2025.gi.de/)
 *KI 2025*
 > For our paper: [On the Domain Robustness of Contrastive Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-032-02813-6_5)
-> Koddenbrock, M., Hoffmann, R., Brodmann, D. & Rodner, E. (2025). *KI 2025.*
+> Koddenbrock, M., Hoffmann, R., Brodmann,D. & Rodner, E. (2025). *KI 2025.*
 
 ---
 
@@ -30,6 +32,8 @@ draft: false
 > For our work on "FLIPCODE: A novel 3D color code", which I developed together with Daniel Herfert.
 
 ---
+
+## Scholarships
 
 ### [Eva-Wolzendorf Scholarship 2014-2015](https://www.fu-berlin.de/sites/frauenbeauftragte/gleichstellung/frauenfoerderung/eva-wolzendorf-stipendium/index.html)
 *FU Berlin, 2014-2015*
