@@ -21,7 +21,7 @@ draft: false
 
 ---
 
-### [Prof Vito Di Gesù - Young Researcher Award 2016](https://www.gfai.de/ueber-uns/profil/auszeichnungen)
+### [Prof Vito Di Gesù Award For Young Researcher 2016](https://www.gfai.de/ueber-uns/profil/auszeichnungen)
 *GFaI, 2016*
 > For my presentation "An innovative 3D color barcode - Intuitive and realistic visualization of digital data" at the CompSysTech'16 conference in Palermo, Italy. This award is in memory of Prof. Vito Di Gesù.
 
