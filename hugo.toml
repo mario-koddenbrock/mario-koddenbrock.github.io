@@ -25,9 +25,9 @@ ShowReadingTime = false
     url = "/publications/"
     weight = 20
 [[menu.main]]
-    identifier = "awards"
-    name = "Honors and Awards"
-    url = "/awards/"
+    identifier = "kudos"
+    name = "Kudos"
+    url = "/kudos/"
     weight = 30
 
 [markup]
