@@ -1,11 +1,15 @@
 ---
 title: "Publications"
 keywords: ["Publications", "Research", "Machine Learning", "Computer Vision"]
-date: 2025-08-01
+date: 2026-01-12
 layout: "single"
 draft: false
 ---
 
+### [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation](https://www.biorxiv.org/content/10.64898/2026.01.09.698597v2)
+Koddenbrock, M., Westerhoff, J., Fachet, D., Reber, S., Gers, F., Rodner, E.  *Under Review at PLOS Computational Biology.*
+> This paper introduces SynthMT, a synthetic dataset for microtubule (MT) segmentation, to address the lack of large-scale labeled data. By evaluating various automated methods, we show that the SAM3 model, when fine-tuned on a small number of synthetic images, achieves near-perfect, and sometimes super-human, performance on real-world data. This demonstrates that synthetic data can enable fully automated and highly accurate MT segmentation. [Interactive Project Page](https://DATEXIS.github.io/SynthMT-project-page).
+---
 ### [On the Domain Robustness of Contrastive Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-032-02813-6_5)
 Koddenbrock, M., Hoffmann, R., Brodmann, D. & Rodner, E. (2025). *KI 2025.*
 > We present DeepBench, a framework for assessing the domain-specific robustness of vision-language models (VLMs). Unlike standard benchmarks, DeepBench uses an LLM to generate realistic, context-aware image corruptions tailored to target domains, without requiring labels. Evaluating multiple contrastive VLM architectures across six real-world domains, we find substantial variability in robustness, underscoring the need for domain-aware evaluation. [DeepBench is open-source](https://github.com/ml-lab-htw/deepbench).
@@ -15,7 +19,7 @@ Knauer, R., Koddenbrock, M., Wallsberger, ... & Rodner, E. (2025). *ACM KDD 2025
 > This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average. [The code is open-source.](https://github.com/ml-lab-htw/llm-trees)
 ---
 ### [Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation](https://arxiv.org/abs/2503.14572)
-Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F. *Under Review at TMLR.*
+Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F. *TMLR 2025*
 > This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting. [The code is open-source.](https://github.com/DATEXIS/IMPRINT)
 ---
 ### [Feedback-driven object detection and iterative model improvement](https://arxiv.org/abs/2411.19835)
