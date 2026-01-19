@@ -77,25 +77,28 @@ I am involved in the **DFG project**: [Berlin Initiative for Applied Foundation 
 
 <!-- This is the final, all-Font-Awesome icon block -->
 <div class="icon-block" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 28px; margin-top: 20px; font-size: 2rem;">
-  <a href="https://github.com/mario-koddenbrock" target="_blank" rel="noopener noreferrer" title="GitHub">
-    <i class="fa-brands fa-github"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/koddenbrock/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-    <i class="fa-brands fa-linkedin"></i>
-  </a>
-  <a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-    <i class="fa-brands fa-google-scholar"></i>
-  </a>
-  <a href="https://orcid.org/0000-0003-3327-7404" target="_blank" rel="noopener noreferrer" title="ORCID">
-    <i class="fa-brands fa-orcid"></i>
-  </a>
-  <a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549" target="_blank" rel="noopener noreferrer" title="HTW Berlin">
-    <i class="fa-solid fa-building-columns"></i>
-  </a>
-  <a href="https://dblp.org/pid/189/6995.html" target="_blank" rel="noopener noreferrer" title="DBLP">
-    <i class="fa-solid fa-book"></i>
-  </a>
-  <a href="https://openreview.net/profile?id=~Mario_Koddenbrock1" target="_blank" rel="noopener noreferrer" title="OpenReview">
-    <i class="fa-solid fa-book-open"></i>
-  </a>
+    <a href="https://github.com/mario-koddenbrock" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/koddenbrock/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://bsky.app/profile/mario-kddb.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">
+        <i class="fa-solid fa-cloud"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+        <i class="fa-brands fa-google-scholar"></i>
+    </a>
+    <a href="https://orcid.org/0000-0003-3327-7404" target="_blank" rel="noopener noreferrer" title="ORCID">
+        <i class="fa-brands fa-orcid"></i>
+    </a>
+    <a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549" target="_blank" rel="noopener noreferrer" title="HTW Berlin">
+        <i class="fa-solid fa-building-columns"></i>
+    </a>
+    <a href="https://dblp.org/pid/189/6995.html" target="_blank" rel="noopener noreferrer" title="DBLP">
+        <i class="fa-solid fa-book"></i>
+    </a>
+    <a href="https://openreview.net/profile?id=~Mario_Koddenbrock1" target="_blank" rel="noopener noreferrer" title="OpenReview">
+        <i class="fa-solid fa-book-open"></i>
+    </a>
 </div>
