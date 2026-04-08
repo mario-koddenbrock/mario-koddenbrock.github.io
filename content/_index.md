@@ -72,6 +72,8 @@ I hold a degree in mathematics from Freie Universität Berlin and bring more tha
 **PhD thesis (working title):**
 _Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy_
 
+Visual foundation models pre-trained on large-scale natural image datasets have shown remarkable generalization capabilities across diverse vision tasks. However, their direct application to specialized scientific domains such as microscopy imaging remains challenging due to significant domain gaps.
+This thesis investigates adaptation techniques to tailor visual foundation models for robust and accurate quantification tasks in microscopy. We explore fine-tuning foundation models on limited domain-specific data as well as generating synthetic microscopy data to guide model adaptation in data-scarce scenarios. We evaluate these approaches on real-world biological imaging datasets and demonstrate that targeted adaptation can achieve human-grade performance while significantly reducing the need for costly manual annotations.
 
 I am involved in the **DFG project**: [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://www.bht-berlin.de/3873/article/9084).
 
