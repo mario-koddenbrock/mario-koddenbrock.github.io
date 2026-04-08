@@ -7,7 +7,7 @@ draft: false
 ---
 
 ### [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation](https://www.biorxiv.org/content/10.64898/2026.01.09.698597v2)
-Koddenbrock, M., Westerhoff, J., Fachet, D., Reber, S., Gers, F., Rodner, E.  *Under Review at PLOS Computational Biology.*
+Koddenbrock, M., Westerhoff, J., Fachet, D., Reber, S., Gers, F., Rodner, E.  *PLOS Computational Biology.*
 > This paper introduces SynthMT, a synthetic dataset for microtubule (MT) segmentation, to address the lack of large-scale labeled data. By evaluating various automated methods, we show that the SAM3 model, when fine-tuned on a small number of synthetic images, achieves near-perfect, and sometimes super-human, performance on real-world data. This demonstrates that synthetic data can enable fully automated and highly accurate MT segmentation. [Interactive Project Page](https://DATEXIS.github.io/SynthMT-project-page).
 ---
 ### [On the Domain Robustness of Contrastive Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-032-02813-6_5)
