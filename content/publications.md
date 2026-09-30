@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 keywords: ["Publications", "Research", "Machine Learning", "Computer Vision"]
-date: 2026-01-12
+date: 2026-09-30
 layout: "single"
 draft: false
 ---
