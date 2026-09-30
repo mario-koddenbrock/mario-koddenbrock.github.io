@@ -75,7 +75,7 @@ _Adaptation Techniques for Visual Foundation Models for Continuous Quantificatio
 Visual foundation models pre-trained on large-scale natural image datasets have shown remarkable generalization capabilities across diverse vision tasks. However, their direct application to specialized scientific domains such as microscopy imaging remains challenging due to significant domain gaps.
 This thesis investigates adaptation techniques to tailor visual foundation models for robust and accurate quantification tasks in microscopy. We explore fine-tuning foundation models on limited domain-specific data as well as generating synthetic microscopy data to guide model adaptation in data-scarce scenarios. We evaluate these approaches on real-world biological imaging datasets and demonstrate that targeted adaptation can achieve human-grade performance while significantly reducing the need for costly manual annotations.
 
-I am involved in the **DFG project**: [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://www.bht-berlin.de/3873/article/9084).
+I am involved in the **DFG project**: [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://foundationmodels.bht-berlin.de/).
 
 <!-- This is the final, all-Font-Awesome icon block -->
 <div class="icon-block" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 28px; margin-top: 20px; font-size: 2rem;">
