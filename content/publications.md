@@ -6,6 +6,10 @@ layout: "single"
 draft: false
 ---
 
+### [RamanBench: A Large-Scale Benchmark for Machine Learning on Raman Spectroscopy](https://arxiv.org/abs/2605.02003)
+Koddenbrock, M., Lange, C., Legner, R., Jäger, M., Kögler, M., Cruz Bournazou, M. N., Neubauer, P., Biessmann, F., Rodner, E. (2026). *NeurIPS 2026.*
+> We introduce RamanBench, the first large-scale, fully reproducible benchmark for machine learning on Raman spectroscopy. It unifies 77 datasets (17 released for the first time) across four domains, comprising more than 325,000 spectra for classification and regression tasks. Benchmarking 28 models, we find that tabular foundation models such as TabPFN consistently outperform Raman-specific and gradient boosting baselines, while time-series models remain competitive. Yet no single method dominates, showing that Raman spectroscopy remains an open challenge for ML. [Live Leaderboard](https://huggingface.co/spaces/HTW-KI-Werkstatt/RamanBench), [Code](https://github.com/ml-lab-htw/RamanBench), [Data](https://pypi.org/project/raman-data/).
+---
 ### [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013901)
 Koddenbrock, M., Westerhoff, J., Fachet, D., Reber, S., Gers, F., Rodner, E.  *PLOS Computational Biology.*
 > This paper introduces SynthMT, a synthetic dataset for microtubule (MT) segmentation, to address the lack of large-scale labeled data. By evaluating various automated methods, we show that the SAM3 model, when fine-tuned on a small number of synthetic images, achieves near-perfect, and sometimes super-human, performance on real-world data. This demonstrates that synthetic data can enable fully automated and highly accurate MT segmentation. [Interactive Project Page](https://DATEXIS.github.io/SynthMT-project-page).
