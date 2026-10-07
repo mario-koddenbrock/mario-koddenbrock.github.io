@@ -1,11 +1,15 @@
 ---
 title: "Publications"
 keywords: ["Publications", "Research", "Machine Learning", "Computer Vision"]
-date: 2026-09-30
+date: 2026-10-07
 layout: "single"
 draft: false
 ---
 
+### [Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT)
+Koddenbrock, M., Rapp, F., Reber, S., Rodner, E. (2027). *NLDL 2027 (Spotlight), PMLR.*
+> We show that standard metrics such as FID miss a failure mode of mask-conditioned diffusion models for microscopy: late in training, they trade texture diversity for a fixed color palette. Our diversity-aware diagnostic selects a checkpoint whose images domain experts cannot tell apart from real IRM recordings (50.9% accuracy over 110 trials), and a segmenter trained only on its synthetic images matches one trained on real data. [Interactive Project Page](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT), [Code](https://github.com/ml-lab-htw/DiffuMT), [Model](https://huggingface.co/HTW-KI-Werkstatt/DiffuMT), [Data](https://huggingface.co/datasets/HTW-KI-Werkstatt/DiffuMT).
+---
 ### [RamanBench: A Large-Scale Benchmark for Machine Learning on Raman Spectroscopy](https://arxiv.org/abs/2605.02003)
 Koddenbrock, M., Lange, C., Legner, R., Jäger, M., Kögler, M., Cruz Bournazou, M. N., Neubauer, P., Biessmann, F., Rodner, E. (2026). *NeurIPS 2026.*
 > We introduce RamanBench, the first large-scale, fully reproducible benchmark for machine learning on Raman spectroscopy. It unifies 77 datasets (17 released for the first time) across four domains, comprising more than 325,000 spectra for classification and regression tasks. Benchmarking 28 models, we find that tabular foundation models such as TabPFN consistently outperform Raman-specific and gradient boosting baselines, while time-series models remain competitive. Yet no single method dominates, showing that Raman spectroscopy remains an open challenge for ML. [Live Leaderboard](https://huggingface.co/spaces/HTW-KI-Werkstatt/RamanBench), [Code](https://github.com/ml-lab-htw/RamanBench), [Data](https://pypi.org/project/raman-data/).
