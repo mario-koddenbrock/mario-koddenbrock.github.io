@@ -6,7 +6,7 @@ layout: "single"
 draft: false
 ---
 
-### [Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT)
+### [Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy](https://arxiv.org/abs/2610.09957)
 Koddenbrock, M., Rapp, F., Reber, S., Rodner, E. (2027). *NLDL 2027 (Spotlight), PMLR.*
 > We show that standard metrics such as FID miss a failure mode of mask-conditioned diffusion models for microscopy: late in training, they trade texture diversity for a fixed color palette. Our diversity-aware diagnostic selects a checkpoint whose images domain experts cannot tell apart from real IRM recordings (50.9% accuracy over 110 trials), and a segmenter trained only on its synthetic images matches one trained on real data. [Interactive Project Page](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT), [Code](https://github.com/ml-lab-htw/DiffuMT), [Model](https://huggingface.co/HTW-KI-Werkstatt/DiffuMT), [Data](https://huggingface.co/datasets/HTW-KI-Werkstatt/DiffuMT).
 ---
