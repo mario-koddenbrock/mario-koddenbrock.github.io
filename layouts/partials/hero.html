@@ -1,0 +1,18 @@
+{{- $p := site.Params.profile -}}
+{{- $photo := (resources.Get "images/portrait_gray.png").Fill "400x400 Center webp q85" -}}
+<section class="hero">
+  <img class="hero-photo" src="{{ $photo.RelPermalink }}" width="170" height="170" alt="Portrait of {{ site.Title }}" fetchpriority="high">
+  <div class="hero-text">
+    <h1 class="sr-only">{{ site.Title }}</h1>
+    <p class="hero-role">{{ $p.role }}</p>
+    <p class="hero-affil"><a href="{{ $p.affiliationURL }}" target="_blank" rel="noopener noreferrer">{{ $p.affiliation }}</a></p>
+    <ul class="hero-links">
+      {{- range site.Data.links.primary }}
+      <li><a href="{{ .url }}" target="_blank" rel="me noopener noreferrer"><i class="{{ .icon }}" aria-hidden="true"></i><span>{{ .label }}</span></a></li>
+      {{- end }}
+    </ul>
+    <p class="hero-more">
+      {{- range $i, $l := site.Data.links.secondary }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}" target="_blank" rel="me noopener noreferrer">{{ $l.label }}</a>{{ end -}}
+    </p>
+  </div>
+</section>

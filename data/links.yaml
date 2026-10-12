@@ -1,0 +1,11 @@
+# Primary profile links (icon + label) and secondary text links.
+primary:
+  - { label: "Google Scholar", icon: "fa-brands fa-google-scholar", url: "https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=en" }
+  - { label: "GitHub", icon: "fa-brands fa-github", url: "https://github.com/mario-koddenbrock" }
+  - { label: "LinkedIn", icon: "fa-brands fa-linkedin", url: "https://www.linkedin.com/in/koddenbrock/" }
+  - { label: "Bluesky", icon: "fa-brands fa-bluesky", url: "https://bsky.app/profile/mario-kddb.bsky.social" }
+secondary:
+  - { label: "HTW Berlin profile", url: "https://www.htw-berlin.de/hochschule/personen/person/?eid=14549" }
+  - { label: "DBLP", url: "https://dblp.org/pid/189/6995.html" }
+  - { label: "OpenReview", url: "https://openreview.net/profile?id=~Mario_Koddenbrock1" }
+  - { label: "ORCID", url: "https://orcid.org/0000-0003-3327-7404" }

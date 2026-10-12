@@ -1,106 +1,43 @@
 ---
-title: "Adapting Visual Foundation Models"
-keywords: ["PhD", "Computer Vision", "Machine Learning", "Foundation Models"]
+title: "Mario Koddenbrock"
+description: "PhD student at HTW Berlin working on adapting visual foundation models for microscopy and other scientific imaging domains."
+keywords: ["PhD", "Computer Vision", "Machine Learning", "Foundation Models", "Microscopy"]
 date: 2025-09-02
-image: "/assets/images/portrait.png"
 slug: "mario-koddenbrock"
-layout: "single"
+layout: "profile"
 type: "page"
 toc: false
+hideMeta: true
 draft: false
 ---
 
-<!-- Force-loading the Font Awesome library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+## About
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-  <!-- Flip Card 1: Object Detection -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/portrait_detect.png" alt="Object Detection" />
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/images/portrait_gray.png" alt="Gray Portrait" />
-        <div class="card-text-overlay">Object Detection</div>
-      </div>
-    </div>
-  </div>
-  <!-- Flip Card 2: Face Recognition -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/portrait_face.png" alt="Face Recognition" />
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/images/portrait_gray.png" alt="Gray Portrait" />
-        <div class="card-text-overlay">Face Recognition</div>
-      </div>
-    </div>
-  </div>
-  <!-- Flip Card 3: Segmentation -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/portrait_segment.png" alt="Segmentation" />
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/images/portrait_gray.png" alt="Gray Portrait" />
-        <div class="card-text-overlay">Segmentation</div>
-      </div>
-    </div>
-  </div>
-  <!-- Flip Card 4: Depth Estimation -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/portrait_depth_2.png" alt="Depth Estimation" />
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/images/portrait_gray.png" alt="Gray Portrait" />
-        <div class="card-text-overlay">Depth Estimation</div>
-      </div>
-    </div>
-  </div>
-</div>
+I am a PhD student at HTW Berlin, working in the DFG-funded project [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://foundationmodels.bht-berlin.de/). My research asks how visual foundation models, pre-trained on natural images, can be adapted to specialised scientific domains such as microscopy, where labelled data is scarce. I work on fine-tuning with little data, synthetic data generation, and benchmarks for machine learning on scientific data.
 
----
-
-I’m a **PhD student** at HTW Berlin, contributing to a DFG-funded project on applied foundation models in computer vision and machine learning. 
 I hold a degree in mathematics from Freie Universität Berlin and bring more than ten years of hands-on R&D experience in machine learning to my research.
 
-**PhD thesis (working title):**
-_Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy_
+<div class="callout">
 
-Visual foundation models pre-trained on large-scale natural image datasets have shown remarkable generalization capabilities across diverse vision tasks. However, their direct application to specialized scientific domains such as microscopy imaging remains challenging due to significant domain gaps.
-This thesis investigates adaptation techniques to tailor visual foundation models for robust and accurate quantification tasks in microscopy. We explore fine-tuning foundation models on limited domain-specific data as well as generating synthetic microscopy data to guide model adaptation in data-scarce scenarios. We evaluate these approaches on real-world biological imaging datasets and demonstrate that targeted adaptation can achieve human-grade performance while significantly reducing the need for costly manual annotations.
+**PhD thesis (working title)**<br>
+*Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy*
 
-I am involved in the **DFG project**: [Berlin Initiative for Applied Foundation Model Research (Appl-FM)](https://foundationmodels.bht-berlin.de/).
+Foundation models transfer poorly to microscopy because of large domain gaps. The thesis studies fine-tuning on limited domain data and synthetic microscopy data to reach human-grade quantification with far less manual annotation.
 
-<!-- This is the final, all-Font-Awesome icon block -->
-<div class="icon-block" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 28px; margin-top: 20px; font-size: 2rem;">
-    <a href="https://github.com/mario-koddenbrock" target="_blank" rel="noopener noreferrer" title="GitHub">
-        <i class="fa-brands fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/koddenbrock/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-        <i class="fa-brands fa-linkedin"></i>
-    </a>
-    <a href="https://bsky.app/profile/mario-kddb.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">
-        <i class="fa-solid fa-cloud"></i>
-    </a>
-    <a href="https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=de" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-        <i class="fa-brands fa-google-scholar"></i>
-    </a>
-    <a href="https://orcid.org/0000-0003-3327-7404" target="_blank" rel="noopener noreferrer" title="ORCID">
-        <i class="fa-brands fa-orcid"></i>
-    </a>
-    <a href="https://www.htw-berlin.de/hochschule/personen/person/?eid=14549" target="_blank" rel="noopener noreferrer" title="HTW Berlin">
-        <i class="fa-solid fa-building-columns"></i>
-    </a>
-    <a href="https://dblp.org/pid/189/6995.html" target="_blank" rel="noopener noreferrer" title="DBLP">
-        <i class="fa-solid fa-book"></i>
-    </a>
-    <a href="https://openreview.net/profile?id=~Mario_Koddenbrock1" target="_blank" rel="noopener noreferrer" title="OpenReview">
-        <i class="fa-solid fa-book-open"></i>
-    </a>
 </div>
+
+## Highlights
+
+{{< news >}}
+
+## Selected publications
+
+{{< selected-publications >}}
+
+[All publications →](/publications/)
+
+## One portrait, four vision tasks
+
+<p class="muted">Hover, tap or focus a card.</p>
+
+{{< flipcards >}}

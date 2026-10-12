@@ -1,0 +1,3 @@
+{{- range where site.Data.publications "selected" true }}
+{{- partial "pub-entry.html" (merge . (dict "hideAbstract" true)) }}
+{{- end }}

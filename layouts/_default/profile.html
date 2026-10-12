@@ -1,0 +1,8 @@
+{{- define "main" }}
+<article class="home-page">
+  {{- partial "hero.html" . }}
+  <div class="post-content">
+    {{- .Content }}
+  </div>
+</article>
+{{- end }}

@@ -1,0 +1,14 @@
+{{- $authors := .authors | replaceRE `Koddenbrock, M\.` `<strong>Koddenbrock, M.</strong>` | safeHTML -}}
+<article class="pub">
+  <h3 class="pub-title"><a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .title }}</a>
+    {{- with .badge }} <span class="pub-badge">{{ . }}</span>{{ end }}</h3>
+  <p class="pub-meta">{{ $authors }} ({{ .year }}). <em>{{ .venue }}.</em></p>
+  {{- if not $.hideAbstract }}<p class="pub-abstract">{{ .abstract }}</p>{{ end }}
+  {{- with .links }}
+  <ul class="pub-links">
+    {{- range . }}
+    <li><a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a></li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</article>

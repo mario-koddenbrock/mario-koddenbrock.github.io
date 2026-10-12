@@ -1,8 +1,9 @@
 ---
-title: ""
+title: "Awards"
 keywords: ["Awards", "Honors", "Scholarships"]
 date: 2026-10-07
 layout: "single"
+hideMeta: true
 draft: false
 ---
 

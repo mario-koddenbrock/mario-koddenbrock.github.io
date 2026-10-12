@@ -5,10 +5,27 @@ theme = "PaperMod"
 
 [params]
 author = "Mario Koddenbrock"
-description = "PhD student at HTW Berlin, focusing on applied foundation models in computer vision and machine learning."
+description = "PhD student at HTW Berlin working on adapting visual foundation models for microscopy and other scientific imaging domains."
+keywords = ["Mario Koddenbrock", "PhD", "Computer Vision", "Machine Learning", "Foundation Models", "Microscopy"]
 defaultTheme = "auto" # can be "light", "dark", or "auto"
 ShowShareButtons = false
 ShowReadingTime = false
+
+  [params.profile]
+  role = "PhD student · Applied foundation model research"
+  affiliation = "HTW Berlin, University of Applied Sciences"
+  affiliationURL = "https://www.htw-berlin.de/en/"
+
+  [params.schema]
+  publisherType = "Person"
+
+  [params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+  theme_color = "#2e2e33"
+  msapplication_TileColor = "#2e2e33"
 
 
 
@@ -16,7 +33,7 @@ ShowReadingTime = false
 [menu]
 [[menu.main]]
     identifier = "about"
-    name = "About Me"
+    name = "Home"
     url = "/"
     weight = 10
 [[menu.main]]
@@ -26,7 +43,7 @@ ShowReadingTime = false
     weight = 20
 [[menu.main]]
     identifier = "kudos"
-    name = "Kudos"
+    name = "Awards"
     url = "/kudos/"
     weight = 30
 

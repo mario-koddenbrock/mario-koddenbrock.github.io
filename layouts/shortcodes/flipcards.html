@@ -1,0 +1,19 @@
+{{- /* One portrait, four vision tasks. Flips on hover, keyboard focus and tap. */ -}}
+{{- $back := resources.Get "images/portrait_gray.png" -}}
+{{- $cards := slice
+  (dict "img" "images/portrait_detect.png" "label" "Object detection")
+  (dict "img" "images/portrait_face.png" "label" "Face recognition")
+  (dict "img" "images/portrait_segment.png" "label" "Segmentation")
+  (dict "img" "images/portrait_depth_2.png" "label" "Depth estimation") -}}
+<div class="flip-cards">
+  {{- range $cards }}
+  {{- $front := (resources.Get .img).Resize "300x webp q85" }}
+  {{- $b := $back.Resize "300x webp q85" }}
+  <div class="flip-card" tabindex="0" role="img" aria-label="{{ .label }} applied to a portrait">
+    <div class="flip-card-inner">
+      <div class="flip-card-front"><img src="{{ $front.RelPermalink }}" width="150" height="150" alt="" loading="lazy" decoding="async"></div>
+      <div class="flip-card-back"><img src="{{ $b.RelPermalink }}" width="150" height="150" alt="" loading="lazy" decoding="async"><div class="card-text-overlay">{{ .label }}</div></div>
+    </div>
+  </div>
+  {{- end }}
+</div>

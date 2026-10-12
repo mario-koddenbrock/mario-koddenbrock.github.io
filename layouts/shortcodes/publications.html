@@ -1,0 +1,12 @@
+{{- /* data/publications.yaml is ordered newest first; emit a heading whenever the year changes. `earlier` entries go last under "Earlier work". */ -}}
+{{- $s := newScratch -}}
+{{- range where site.Data.publications "earlier" "ne" true }}
+{{- if ne ($s.Get "year") .year }}{{ $s.Set "year" .year }}
+<h2 class="pub-year">{{ .year }}</h2>
+{{- end }}
+{{- partial "pub-entry.html" . }}
+{{- end }}
+{{- with where site.Data.publications "earlier" true }}
+<h2 class="pub-year">Earlier work</h2>
+{{- range . }}{{ partial "pub-entry.html" . }}{{ end }}
+{{- end }}

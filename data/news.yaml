@@ -1,0 +1,13 @@
+# Newest first. `when` is free text; keep it year-level unless certain.
+- when: "2026"
+  text: "NLDL 2027 spotlight paper: DiffuMT"
+  url: "https://arxiv.org/abs/2610.09957"
+- when: "2026"
+  text: "NeurIPS paper accepted: RamanBench"
+  url: "https://arxiv.org/abs/2605.02003"
+- when: "2026"
+  text: "PLOS Computational Biology paper published: SynthMT"
+  url: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013901"
+- when: "2025"
+  text: "KI 2025 Best Paper Award: DeepBench"
+  url: "/kudos/"

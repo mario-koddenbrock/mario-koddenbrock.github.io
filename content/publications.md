@@ -1,61 +1,13 @@
 ---
 title: "Publications"
+description: "Publications by Mario Koddenbrock on foundation models, microscopy, benchmarks and machine learning."
 keywords: ["Publications", "Research", "Machine Learning", "Computer Vision"]
 date: 2026-10-07
 layout: "single"
+hideMeta: true
 draft: false
 ---
 
-### [Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy](https://arxiv.org/abs/2610.09957)
-Koddenbrock, M., Rapp, F., Reber, S., Rodner, E. (2027). *NLDL 2027 (Spotlight), PMLR.*
-> We show that standard metrics such as FID miss a failure mode of mask-conditioned diffusion models for microscopy: late in training, they trade texture diversity for a fixed color palette. Our diversity-aware diagnostic selects a checkpoint whose images domain experts cannot tell apart from real IRM recordings (50.9% accuracy over 110 trials), and a segmenter trained only on its synthetic images matches one trained on real data. [Interactive Project Page](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT), [Code](https://github.com/ml-lab-htw/DiffuMT), [Model](https://huggingface.co/HTW-KI-Werkstatt/DiffuMT), [Data](https://huggingface.co/datasets/HTW-KI-Werkstatt/DiffuMT).
----
-### [RamanBench: A Large-Scale Benchmark for Machine Learning on Raman Spectroscopy](https://arxiv.org/abs/2605.02003)
-Koddenbrock, M., Lange, C., Legner, R., Jäger, M., Kögler, M., Cruz Bournazou, M. N., Neubauer, P., Biessmann, F., Rodner, E. (2026). *NeurIPS 2026.*
-> We introduce RamanBench, the first large-scale, fully reproducible benchmark for machine learning on Raman spectroscopy. It unifies 77 datasets (17 released for the first time) across four domains, comprising more than 325,000 spectra for classification and regression tasks. Benchmarking 28 models, we find that tabular foundation models such as TabPFN consistently outperform Raman-specific and gradient boosting baselines, while time-series models remain competitive. Yet no single method dominates, showing that Raman spectroscopy remains an open challenge for ML. [Live Leaderboard](https://huggingface.co/spaces/HTW-KI-Werkstatt/RamanBench), [Code](https://github.com/ml-lab-htw/RamanBench), [Data](https://pypi.org/project/raman-data/).
----
-### [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013901)
-Koddenbrock, M., Westerhoff, J., Fachet, D., Reber, S., Gers, F., Rodner, E.  *PLOS Computational Biology.*
-> This paper introduces SynthMT, a synthetic dataset for microtubule (MT) segmentation, to address the lack of large-scale labeled data. By evaluating various automated methods, we show that the SAM3 model, when fine-tuned on a small number of synthetic images, achieves near-perfect, and sometimes super-human, performance on real-world data. This demonstrates that synthetic data can enable fully automated and highly accurate MT segmentation. [Interactive Project Page](https://DATEXIS.github.io/SynthMT-project-page).
----
-### [On the Domain Robustness of Contrastive Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-032-02813-6_5)
-Koddenbrock, M., Hoffmann, R., Brodmann, D. & Rodner, E. (2025). *KI 2025.*
-> We present DeepBench, a framework for assessing the domain-specific robustness of vision-language models (VLMs). Unlike standard benchmarks, DeepBench uses an LLM to generate realistic, context-aware image corruptions tailored to target domains, without requiring labels. Evaluating multiple contrastive VLM architectures across six real-world domains, we find substantial variability in robustness, underscoring the need for domain-aware evaluation. [DeepBench is open-source](https://github.com/ml-lab-htw/deepbench).
----
-### ["Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree": Zero-Shot Decision Tree Induction and Embedding with Large Language Models](https://dl.acm.org/doi/10.1145/3711896.3736818)
-Knauer, R., Koddenbrock, M., Wallsberger, ... & Rodner, E. (2025). *ACM KDD 2025.*
-> This paper demonstrates how large language models (LLMs) can generate intrinsically interpretable decision trees without any training data, surpassing data-driven trees on some small-sized tabular datasets and performing on par with data-driven tree-based embeddings on average. [The code is open-source.](https://github.com/ml-lab-htw/llm-trees)
----
-### [Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation](https://arxiv.org/abs/2503.14572)
-Westerhoff, J., Atefi, G., Koddenbrock, M., Figueroa, A., Löser, A., Rodner, E., Gers, F. *TMLR 2025*
-> This latest work proposes a framework for imprinting, identifying three main components: generation, normalization, and aggregation, and show an increase of up to 4% in challenging scenarios with complex data distributions for new classes. Furthermore, we found connections of neural collapse to multi-proxy imprinting. [The code is open-source.](https://github.com/DATEXIS/IMPRINT)
----
-### [Feedback-driven object detection and iterative model improvement](https://arxiv.org/abs/2411.19835)
-Tenckhoff, S., Koddenbrock, M., & Rodner, E. (2024). *AI4EA 2025.*
-> This publication presents the development and evaluation of a platform designed to interactively improve object detection models, demonstrating significant time reduction and efficiency gains in annotation without compromising quality. [The framework is open-source.](https://github.com/ml-lab-htw/iterative-annotate)
----
+Also on [Google Scholar](https://scholar.google.com/citations?user=wqHic0AAAAAJ&hl=en), [DBLP](https://dblp.org/pid/189/6995.html) and [ORCID](https://orcid.org/0000-0003-3327-7404).
 
-
-
-## Earlier Work
----
-### [Condition monitoring of a mechanical pulsatile heart support system via support-vector machine](https://link.springer.com/chapter/10.1007/978-3-031-26236-4_6)
-Koddenbrock, M., & Heinze, H. (2022). *In International Conference on Software Engineering and Formal Methods 2022.*
-> This paper presents a method to detect increased risk of complications during the use of a VAD using acoustic measurements. The main challenge is ensuring consistent monitoring despite various factors affecting ultrasonic measurements.
----
-### [Between Measurement and Simulation. An Application Example of How to Create a Modal Digital Twin Using FE Model Updating](https://link.springer.com/chapter/10.1007/978-3-030-77348-9_6)
-Koddenbrock, M., Heimann, J., Herfert, D., Pehe, J., & Wargulski, L. (2021). *In Model Validation and Uncertainty Quantification, Volume 3: Proceedings of the 39th IMAC.*
-> This paper determines the modal parameters of a machine frame using experimental modal analysis and updates the model to match simulated parameters. The results show the updated model accurately represents the real system.
----
-### [An innovative 3D color barcode: Intuitive and realistic visualization of digital data.](https://dl.acm.org/doi/10.1145/2983468.2983486)
-Koddenbrock, M., Herfert, D., Püschel, F., Rataj, C., & Melitzki, M. (2016). *In Proceedings of the 17th International Conference on Computer Systems and Technologies.*
-> The increasing popularity of mobile devices has led to a rise in barcode technologies. This publication presents a new approach for color barcodes that integrates design and security for intuitive visualization of digital data.
----
-### [Efficiency and Accuracy of a Divergence-Free Discretization for the Steady Incompressible Navier–Stokes Equations (German)](/pdf/Masterarbeit.pdf)
-Master Thesis (2014). *Not published.*
-> This thesis addresses the challenges in numerically implementing the Navier–Stokes and Stokes equations, focusing on the issue of incorrect force balancing... Key results on the existence theory of solutions, suitable examples, and the efficiency of Picard and Newton iterations are discussed.
----
-### [Representation of Integers by Binary Quadratic Forms (German)](/pdf/Bachelorarbeit.pdf)
-Bachelor Thesis (2011). *Not published.*
-> This thesis explores representing integers through binary quadratic forms. It covers algebraic tools to determine for which integers x and y the number n can be represented by ax^2 + bxy + cy^2.
----
+{{< publications >}}
