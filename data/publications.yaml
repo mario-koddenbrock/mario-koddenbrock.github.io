@@ -5,7 +5,6 @@
   authors: "Koddenbrock, M., Rapp, F., Reber, S., Rodner, E."
   venue: "NLDL 2027, PMLR"
   year: 2027
-  badge: "Spotlight"
   selected: true
   abstract: "We show that standard metrics such as FID miss a failure mode of mask-conditioned diffusion models for microscopy: late in training, they trade texture diversity for a fixed color palette. Our diversity-aware diagnostic selects a checkpoint whose images domain experts cannot tell apart from real IRM recordings (50.9% accuracy over 110 trials), and a segmenter trained only on its synthetic images matches one trained on real data."
   links:
