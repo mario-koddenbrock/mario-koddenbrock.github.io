@@ -1,0 +1,97 @@
+{{- /* Decorative, very low-contrast field of slowly drifting dots behind the page. */ -}}
+<canvas class="bg-dots" aria-hidden="true"></canvas>
+<script>
+(function () {
+  var canvas = document.querySelector('.bg-dots');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var dots = [], w = 0, h = 0, dpr = 1, color = '#1d5fd1', last = 0, raf = 0;
+  var mouse = { x: -1e4, y: -1e4, on: false }, R = 220, RING = 55;
+
+  function readColor() {
+    var c = getComputedStyle(document.body).getPropertyValue('--accent').trim();
+    if (c) color = c;
+  }
+
+  // Best-candidate sampling: irregular, but without clumps or gaps.
+  function seed() {
+    var n = Math.round(Math.min(110, Math.max(24, (w * h) / 16000)));
+    dots = [];
+    for (var i = 0; i < n; i++) {
+      var best = null, bestD = -1;
+      for (var k = 0; k < 10; k++) {
+        var x = Math.random() * w, y = Math.random() * h, d = Infinity;
+        for (var j = 0; j < dots.length; j++) {
+          var dx = x - dots[j].x, dy = y - dots[j].y, dd = dx * dx + dy * dy;
+          if (dd < d) d = dd;
+        }
+        if (d > bestD) { bestD = d; best = { x: x, y: y }; }
+      }
+      var a = Math.random() * Math.PI * 2, v = 2 + Math.random() * 6;
+      dots.push({ x: best.x, y: best.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v,
+                  bx: Math.cos(a) * v, by: Math.sin(a) * v,
+                  r: 0.8 + Math.random() * 1.9, o: 0.35 + Math.random() * 0.65,
+                  ph: Math.random() * 6.28, f: 0.05 + Math.random() * 0.1 });
+    }
+  }
+
+  function resize() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = window.innerWidth; h = window.innerHeight;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    seed(); draw(0);
+  }
+
+  function draw(dt) {
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = color;
+    var dark = document.body.classList.contains('dark');
+    var base = dark ? 0.4 : 0.3;
+    for (var i = 0; i < dots.length; i++) {
+      var d = dots[i];
+      var glow = 0;
+      if (mouse.on) {
+        var mx = mouse.x - d.x, my = mouse.y - d.y, dist = Math.sqrt(mx * mx + my * my) || 1;
+        if (dist < R) {
+          var t = 1 - dist / R;
+          glow = t;
+          // Pull toward the cursor, but hold a loose ring around it instead of collapsing onto it.
+          var pull = (dist > RING ? 1 : -1.5) * t * 260;
+          d.vx += (mx / dist) * pull * dt; d.vy += (my / dist) * pull * dt;
+        }
+      }
+      // Relax back to the dot's own slow drift, and cap the speed.
+      var relax = 1.2 * dt;
+      d.vx += (d.bx - d.vx) * relax; d.vy += (d.by - d.vy) * relax;
+      var sp = Math.sqrt(d.vx * d.vx + d.vy * d.vy);
+      if (sp > 140) { d.vx *= 140 / sp; d.vy *= 140 / sp; }
+      d.x += d.vx * dt; d.y += d.vy * dt; d.ph += d.f * dt;
+      if (d.x < -5) d.x = w + 5; else if (d.x > w + 5) d.x = -5;
+      if (d.y < -5) d.y = h + 5; else if (d.y > h + 5) d.y = -5;
+      ctx.globalAlpha = Math.min(1, base * d.o * (0.75 + 0.25 * Math.sin(d.ph)) * (1 + 1.6 * glow));
+      ctx.beginPath(); ctx.arc(d.x, d.y, d.r, 0, 6.2832); ctx.fill();
+    }
+  }
+
+  function frame(t) {
+    var dt = last ? Math.min((t - last) / 1000, 0.1) : 0;
+    last = t; draw(dt); raf = requestAnimationFrame(frame);
+  }
+  function start() { if (!reduce && !raf) { last = 0; raf = requestAnimationFrame(frame); } }
+  function stop() { cancelAnimationFrame(raf); raf = 0; }
+
+  if (!reduce) {
+    window.addEventListener('mousemove', function (e) { mouse.x = e.clientX; mouse.y = e.clientY; mouse.on = true; }, { passive: true });
+    document.documentElement.addEventListener('mouseleave', function () { mouse.on = false; });
+  }
+
+  readColor(); resize();
+  var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(resize, 150); });
+  document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
+  new MutationObserver(function () { readColor(); if (reduce) draw(0); })
+    .observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  start();
+})();
+</script>

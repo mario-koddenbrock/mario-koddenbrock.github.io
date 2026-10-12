@@ -63,3 +63,7 @@
 .post-content .pub-meta, .post-content .pub-abstract { margin-top: 0; }
 .post-content .pub-year { margin-top: 36px; }
 .hero-links a, .hero-affil a, .hero-more a { box-shadow: none; }
+
+/* ---------- Background dots (canvas, drawn by extend_footer.html) ---------- */
+.bg-dots { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+@media print { .bg-dots { display: none; } }
