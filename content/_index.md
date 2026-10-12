@@ -17,13 +17,10 @@ I am a PhD student at HTW Berlin, working in the DFG-funded project [Berlin Init
 
 I hold a degree in mathematics from Freie Universität Berlin and bring more than ten years of hands-on R&D experience in machine learning to my research.
 
-<div class="callout">
-
-**PhD thesis (working title)**<br>
-*Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy*
-
-Foundation models transfer poorly to microscopy because of large domain gaps. The thesis studies fine-tuning on limited domain data and synthetic microscopy data to reach human-grade quantification with far less manual annotation.
-
+<div class="thesis">
+<p class="thesis-label">PhD thesis · working title</p>
+<p class="thesis-title">Adaptation Techniques for Visual Foundation Models for Continuous Quantification in Microscopy</p>
+<p class="thesis-summary">Foundation models transfer poorly to microscopy because of large domain gaps. The thesis studies fine-tuning on limited domain data and synthetic microscopy data to reach human-grade quantification with far less manual annotation.</p>
 </div>
 
 ## Highlights
@@ -36,8 +33,6 @@ Foundation models transfer poorly to microscopy because of large domain gaps. Th
 
 [All publications →](/publications/)
 
-## One portrait, four vision tasks
-
-<p class="muted">Hover, tap or focus a card.</p>
-
 {{< flipcards >}}
+
+<p class="muted caption">Hover, tap or focus a card.</p>

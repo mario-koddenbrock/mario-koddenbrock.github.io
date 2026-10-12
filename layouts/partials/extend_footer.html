@@ -6,12 +6,21 @@
   if (!canvas || !canvas.getContext) return;
   var ctx = canvas.getContext('2d');
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var dots = [], w = 0, h = 0, dpr = 1, color = '#1d5fd1', last = 0, raf = 0;
+  var dots = [], w = 0, h = 0, dpr = 1, colors = ['#004282', '#00A0AA', '#EA3B07', '#FCC900'], last = 0, raf = 0;
   var mouse = { x: -1e4, y: -1e4, on: false }, R = 220, RING = 55;
 
+  // Blue 40%, teal 25%, orange-red 20%, yellow 15%.
+  function pickColor() { var r = Math.random(); return r < 0.4 ? 0 : r < 0.65 ? 1 : r < 0.85 ? 2 : 3; }
+
+  // Mostly dots, plus a few triangles and bars echoing the project's visual language.
+  function shape() { var r = Math.random(); return r < 0.74 ? 0 : r < 0.87 ? 1 : 2; }
+
   function readColor() {
-    var c = getComputedStyle(document.body).getPropertyValue('--accent').trim();
-    if (c) color = c;
+    var cs = getComputedStyle(document.body);
+    ['--accent', '--accent2', '--accent3', '--accent4'].forEach(function (v, i) {
+      var c = cs.getPropertyValue(v).trim();
+      if (c) colors[i] = c;
+    });
   }
 
   // Best-candidate sampling: irregular, but without clumps or gaps.
@@ -32,7 +41,8 @@
       dots.push({ x: best.x, y: best.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v,
                   bx: Math.cos(a) * v, by: Math.sin(a) * v,
                   r: 0.8 + Math.random() * 1.9, o: 0.35 + Math.random() * 0.65,
-                  ph: Math.random() * 6.28, f: 0.05 + Math.random() * 0.1 });
+                  c: pickColor(), s: shape(), a: Math.random() * 6.2832, rot: (Math.random() - 0.5) * 0.4,
+                  z: 3.5 + Math.random() * 3.5, bw: 2 + Math.random() * 1.2, bl: 8 + Math.random() * 8, ph: Math.random() * 6.28, f: 0.05 + Math.random() * 0.1 });
     }
   }
 
@@ -46,7 +56,6 @@
 
   function draw(dt) {
     ctx.clearRect(0, 0, w, h);
-    ctx.fillStyle = color;
     var dark = document.body.classList.contains('dark');
     var base = dark ? 0.4 : 0.3;
     for (var i = 0; i < dots.length; i++) {
@@ -67,11 +76,22 @@
       d.vx += (d.bx - d.vx) * relax; d.vy += (d.by - d.vy) * relax;
       var sp = Math.sqrt(d.vx * d.vx + d.vy * d.vy);
       if (sp > 140) { d.vx *= 140 / sp; d.vy *= 140 / sp; }
-      d.x += d.vx * dt; d.y += d.vy * dt; d.ph += d.f * dt;
+      d.x += d.vx * dt; d.y += d.vy * dt; d.ph += d.f * dt; d.a += d.rot * dt;
       if (d.x < -5) d.x = w + 5; else if (d.x > w + 5) d.x = -5;
       if (d.y < -5) d.y = h + 5; else if (d.y > h + 5) d.y = -5;
       ctx.globalAlpha = Math.min(1, base * d.o * (0.75 + 0.25 * Math.sin(d.ph)) * (1 + 1.6 * glow));
-      ctx.beginPath(); ctx.arc(d.x, d.y, d.r, 0, 6.2832); ctx.fill();
+      ctx.fillStyle = colors[d.c];
+      if (d.s === 0) {
+        ctx.beginPath(); ctx.arc(d.x, d.y, d.r, 0, 6.2832); ctx.fill();
+      } else {
+        ctx.save(); ctx.translate(d.x, d.y); ctx.rotate(d.a);
+        if (d.s === 1) {
+          ctx.beginPath(); ctx.moveTo(0, -d.z); ctx.lineTo(d.z * 0.866, d.z * 0.5); ctx.lineTo(-d.z * 0.866, d.z * 0.5); ctx.closePath(); ctx.fill();
+        } else {
+          ctx.fillRect(-d.bw / 2, -d.bl / 2, d.bw, d.bl);
+        }
+        ctx.restore();
+      }
     }
   }
 

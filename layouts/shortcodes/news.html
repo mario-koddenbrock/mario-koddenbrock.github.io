@@ -1,5 +1,8 @@
 <ul class="news">
   {{- range site.Data.news }}
-  <li><span class="news-when">{{ .when }}</span><span>{{ if .url }}<a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .text }}</a>{{ else }}{{ .text }}{{ end }}</span></li>
+  <li>
+    <span class="news-when">{{ .when }}</span>
+    <span class="news-text">{{ if .url }}<a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .text }}</a>{{ else }}{{ .text }}{{ end }}</span>
+  </li>
   {{- end }}
 </ul>

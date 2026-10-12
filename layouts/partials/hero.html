@@ -1,5 +1,5 @@
 {{- $p := site.Params.profile -}}
-{{- $photo := (resources.Get "images/portrait_gray.png").Fill "400x400 Center webp q85" -}}
+{{- $photo := (resources.Get "images/portrait.webp").Fill "400x400 Center webp q85" -}}
 <section class="hero">
   <img class="hero-photo" src="{{ $photo.RelPermalink }}" width="170" height="170" alt="Portrait of {{ site.Title }}" fetchpriority="high">
   <div class="hero-text">
