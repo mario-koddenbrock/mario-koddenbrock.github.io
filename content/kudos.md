@@ -2,7 +2,7 @@
 title: "Awards"
 keywords: ["Awards", "Honors", "Scholarships"]
 date: 2026-10-07
-layout: "single"
+layout: "untitled"
 hideMeta: true
 draft: false
 ---
