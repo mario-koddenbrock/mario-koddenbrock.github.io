@@ -1,16 +1,18 @@
 /* ---------- Accent (one color, light + dark) ---------- */
 :root {
-  /* Palette of the Appl-FM project site (foundationmodels.bht-berlin.de); text-safe variants in light mode. */
-  --accent:  #004282; --accent-soft:  rgba(0, 66, 130, 0.08);    /* blue: links, structure */
-  --accent2: #00868f; --accent2-soft: rgba(0, 160, 170, 0.12);   /* teal: dates, secondary */
-  --accent3: #d63706; --accent3-soft: rgba(234, 59, 7, 0.09);    /* orange-red: awards */
-  --accent4: #fcc900; --accent4-soft: rgba(252, 201, 0, 0.30);   /* yellow: decoration only */
+  /* Minimal, e-reader style: neutral accents. Only the background dots keep the project colors. */
+  --accent:  #1e1e1e; --accent-soft:  rgba(0, 0, 0, 0.04);
+  --accent2: #6b6b6b; --accent2-soft: rgba(0, 0, 0, 0.04);
+  --accent3: #1e1e1e; --accent3-soft: rgba(0, 0, 0, 0.04);
+  --accent4: #6b6b6b; --accent4-soft: transparent;
+  --dot1: #004282; --dot2: #00A0AA; --dot3: #EA3B07; --dot4: #FCC900;
 }
 .dark {
-  --accent:  #3fa7e8; --accent-soft:  rgba(63, 167, 232, 0.13);
-  --accent2: #1fbcc6; --accent2-soft: rgba(0, 160, 170, 0.16);
-  --accent3: #f1714c; --accent3-soft: rgba(241, 113, 76, 0.13);
-  --accent4: #fcc900; --accent4-soft: rgba(252, 201, 0, 0.16);
+  --accent:  #dadadb; --accent-soft:  rgba(255, 255, 255, 0.05);
+  --accent2: #9b9c9d; --accent2-soft: rgba(255, 255, 255, 0.05);
+  --accent3: #dadadb; --accent3-soft: rgba(255, 255, 255, 0.05);
+  --accent4: #9b9c9d; --accent4-soft: transparent;
+  --dot1: #3fa7e8; --dot2: #1fbcc6; --dot3: #f1714c; --dot4: #fcc900;
 }
 
 /* ---------- Type scale: one family (theme), four sizes, two weights ---------- */
@@ -41,9 +43,6 @@
 .home-page .post-content h2 { font-size: var(--fs-lg); margin: 36px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
 .post-content h2 { position: relative; }
 .post-content h2::after { content: ""; position: absolute; left: 0; bottom: -1px; width: 44px; height: 2px; background: var(--accent); }
-.post-content h2:nth-of-type(4n+2)::after { background: var(--accent2); }
-.post-content h2:nth-of-type(4n+3)::after { background: var(--accent3); }
-.post-content h2:nth-of-type(4n)::after { background: var(--accent4); }
 .thesis { margin: 22px 0; padding: 2px 0 2px 18px; border-left: 3px solid var(--accent); }
 .thesis p { margin: 0; }
 .thesis-label { font-size: var(--fs-xs); font-weight: var(--fw-strong); letter-spacing: .02em; color: var(--accent); }
