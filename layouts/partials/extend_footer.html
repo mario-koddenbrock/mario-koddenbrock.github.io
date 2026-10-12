@@ -17,7 +17,7 @@
 
   function readColor() {
     var cs = getComputedStyle(document.body);
-    ['--accent', '--accent2', '--accent3', '--accent4'].forEach(function (v, i) {
+    ['--dot1', '--dot2', '--dot3', '--dot4'].forEach(function (v, i) {
       var c = cs.getPropertyValue(v).trim();
       if (c) colors[i] = c;
     });
