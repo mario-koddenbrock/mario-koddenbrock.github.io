@@ -16,7 +16,7 @@
 
   // Best-candidate sampling: irregular, but without clumps or gaps.
   function seed() {
-    var n = Math.round(Math.min(110, Math.max(24, (w * h) / 16000)));
+    var n = Math.round(Math.min(190, Math.max(40, (w * h) / 9000)));
     dots = [];
     for (var i = 0; i < n; i++) {
       var best = null, bestD = -1;
