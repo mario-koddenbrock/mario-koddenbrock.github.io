@@ -1,9 +1,21 @@
 ---
 title: ""
 keywords: ["Awards", "Honors", "Scholarships"]
-date: 2025-09-20
+date: 2026-10-07
 layout: "single"
 draft: false
+---
+
+## Conference Highlights
+
+---
+
+### [Spotlight Paper, NLDL 2027](https://arxiv.org/abs/2610.09957)
+*NLDL 2027, PMLR*
+> For our paper: [Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy](https://arxiv.org/abs/2610.09957)
+> Koddenbrock, M., Rapp, F., Reber, S., Rodner, E. (2027). *NLDL 2027 (Spotlight), PMLR.*
+> [Interactive Project Page](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT) · [Code](https://github.com/ml-lab-htw/DiffuMT)
+
 ---
 
 ## Awards
